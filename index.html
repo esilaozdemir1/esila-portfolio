@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Esila Ozdemir | Electrical Engineering Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    section { background-color: white; border-radius: 1rem; padding: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+    h2 { color: #1e3a8a; }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-blue-100 to-white text-gray-800">
+  <header class="bg-white shadow p-6 sticky top-0 z-50 border-b">
+    <div class="max-w-5xl mx-auto text-center">
+      <h1 class="text-4xl font-extrabold text-blue-900">Esila Özdemir</h1>
+      <p class="text-md mt-2 font-medium">Electrical Engineering Student @ Drexel University</p>
+      <p class="text-sm text-gray-600 mt-1">Embedded Systems | PCB Design | Innovator</p>
+      <p class="text-sm mt-1">Philadelphia, PA • <a href="mailto:eo425@drexel.edu" class="text-blue-700 underline">eo425@drexel.edu</a> • <a href="https://linkedin.com/in/esila-ozdemir-1340a1230" class="text-blue-700 underline">LinkedIn</a></p>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto py-14 px-6 space-y-14">
+
+    <section>
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">About Me</h2>
+      <p class="text-base leading-relaxed">I'm an Electrical Engineering student at Drexel University, passionate about embedded systems, analog circuit design, and turning innovative ideas into real hardware. I aim to combine hardware and software to address practical engineering challenges, and I’m currently working on sensor-driven biomedical and energy monitoring projects.</p>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-bold mb-6 border-b pb-2">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div>
+          <h3 class="text-lg font-semibold text-blue-800">Transcutaneous Vital Signs Monitor (Ongoing)</h3>
+          <p class="text-sm text-gray-500 mb-1">ESP32, MAX30102, Buck Converter, KiCAD</p>
+          <ul class="list-disc pl-5 text-sm mb-2">
+            <li>Develop a handheld device to monitor glucose, oxygen saturation, and heart rate using NIR signals</li>
+            <li>Design power regulation using a buck converter for biosensors and ESP32</li>
+            <li>Create the complete circuit schematic and PCB in KiCAD</li>
+          </ul>
+          <a href="https://github.com/esilaozdemir/glucose-monitor" target="_blank" class="text-blue-700 hover:underline text-sm font-medium">View on GitHub →</a>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold text-blue-800">Smart Battery Level Monitor (Ongoing)</h3>
+          <p class="text-sm text-gray-500 mb-1">Arduino, Voltage Divider, LEDs, C</p>
+          <ul class="list-disc pl-5 text-sm mb-2">
+            <li>Build a battery monitoring circuit using a voltage divider and analog input</li>
+            <li>Program Arduino logic for real-time voltage feedback via LEDs</li>
+          </ul>
+          <a href="https://github.com/esilaozdemir/smart-battery-monitor" target="_blank" class="text-blue-700 hover:underline text-sm font-medium">View on GitHub →</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">Experience</h2>
+      <ul class="list-disc pl-5 space-y-2 text-sm">
+        <li><strong>Hardware Intern</strong>, Twin Science — Designed interactive simulations and prototyped modules for middle school STEM kits</li>
+        <li><strong>Programmer & Treasurer</strong>, ARC6014 Robotics — Programmed control systems, worked on wiring, and raised $29,000+ in sponsorship</li>
+        <li><strong>Research Scholar</strong>, Pioneer Academics — Simulated double pendulum physics using Python; proposed new approaches to sports mechanics</li>
+        <li><strong>Teaching Assistant</strong>, Kadir Has University — Supported 100+ students in physics under Prof. Dr. Nihat Berker</li>
+        <li><strong>Electrical Subteam Member</strong>, Teknofest Rocket Team — Contributed to payload electronics, wiring, and sensor testing</li>
+        <li><strong>Electronics Intern</strong>, E2DAS — Built a potentiometer-based analog circuit and programmed control logic in C</li>
+        <li><strong>Research Intern</strong>, Koç University — Co-authored research on quantum decision theory applied to the prisoner’s dilemma</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">Leadership & Activities</h2>
+      <ul class="list-disc pl-5 space-y-2 text-sm">
+        <li><strong>Embedded Team Member</strong>, Drexel Electric Racing — Contributing to embedded systems and subsystems for a formula-style electric vehicle</li>
+        <li><strong>President & National Ambassador</strong>, Technovation Club — Led 20+ girls in a global app competition, mentored 5 teams, reached global semifinals</li>
+        <li><strong>Mentor & Volunteer</strong>, YGA — Led outreach in underserved schools, ran innovation camps, and supported women in tech through UP School</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">Skills</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-sm">
+        <div><strong>Programming & Tools:</strong> Python, Java, Dart, Verilog, Arduino IDE, MS Office<br><em>(Familiar with C/C++)</em></div>
+        <div><strong>Hardware & Systems:</strong> KiCAD, Soldering, Breadboarding, Multimeter, ESP32, MAX30102</div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">Honors & Awards</h2>
+      <ul class="list-disc pl-5 space-y-2 text-sm">
+        <li>Dean’s List – Drexel University (2025)</li>
+        <li>Women in STEM Award – Rochester Institute of Technology</li>
+        <li>Core Value Award for Multiculturalism – Robert College</li>
+        <li>AP International Diploma – College Board (2023)</li>
+        <li>National Finalist – TÜBİTAK Polar Research Competition</li>
+        <li>Global Semifinalist – Technovation Challenge (2021)</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="bg-white border-t text-center p-6 text-sm text-gray-600">
+    &copy; 2025 Esila Özdemir. All rights reserved.
+  </footer>
+</body>
+</html>
